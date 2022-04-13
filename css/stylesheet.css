@@ -13,7 +13,7 @@ a{
   display: flex;
 }
 body{
-  font-family: Verdana, sans-serif ;
+  font-family: Arial, Helvetica, sans-serif;;
   margin: 0%;
   padding: 0%;
 }
@@ -100,7 +100,6 @@ body{
 
 /* Random Information section */
 .random-card{
-  align-content: center;
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -115,8 +114,7 @@ body{
 }
 .random-text{
   display: flex;
-  align-content: center;
-  flex-wrap: wrap;
+  align-self: center;
 }
 .random-title{
   justify-content: center;
@@ -135,6 +133,32 @@ body{
   width: 190px;
 }
 
+/* Inspiring Quote */
+.testimonial{
+  align-items: center;
+  background-color: #E5E7EB;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 350px;
+}
+.testimonial-text{
+  color: #1F2937;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 100;
+  margin-bottom: 10px;
+  width: 750px;
+}
+.testimonial-author{
+  display: flex;
+  justify-content: flex-end;
+  font-size: 20px;
+  font-weight: 100;
+  width: 750px;
+  border: #1F2937;
+  border-style: dashed;
+}
 
 
 
