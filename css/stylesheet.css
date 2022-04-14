@@ -20,10 +20,11 @@ body{
 
 /* Header */
 .logo{
-  align-items: center;
-  justify-content: center;
-  font-size: 24px;
-  margin-left: 100px;
+  margin-top: 5px;
+}
+.logo-img{
+  width: auto;
+  height: 100px;
 }
 .links{
   display: flex;
@@ -69,7 +70,7 @@ body{
   display: flex;
   font-size: 48px;
   font-weight: 900;
-  margin: 5px;
+  margin: 0px;
   justify-content: center;
 }
 .awesome-image{
@@ -107,6 +108,8 @@ body{
 .random-text{
   display: flex;
   align-self: center;
+  flex-direction: column;
+  font-size: 12px;
 }
 .random-title{
   justify-content: center;
@@ -114,7 +117,7 @@ body{
   display: flex;
   font-size: 36px ;
   font-weight: bolder;
-  margin: 50px 0px 24px 0px ;
+  margin: 40px 0px 24px 0px ;
 }
 .random-image{
   border: #3882f6;
@@ -140,14 +143,14 @@ body{
   font-style: italic;
   font-weight: 100;
   margin-bottom: 10px;
-  width: 750px;
+  width: 950px;
 }
 .testimonial-author{
   display: flex;
   justify-content: flex-end;
   font-size: 20px;
   font-weight: 100;
-  width: 750px;
+  width: 950px;
 }
 
 /* Action Section */
